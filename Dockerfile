@@ -10,7 +10,7 @@ COPY package.json .
 # download the project dependencies
 RUN npm install
 
-# copy everything from the react app folder to the /app folder in the container
+# copy everything from the react app folder to the /app folder in the containerr
 COPY . .
 
 # package up the react project in the /app directory
